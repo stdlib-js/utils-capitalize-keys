@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-capitalize-keys",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "description": "Convert the first letter of each object key to uppercase.",
   "license": "Apache-2.0",
   "author": {

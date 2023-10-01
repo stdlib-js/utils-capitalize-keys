@@ -1,3 +1,0 @@
-// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-var e,t;e=this,t=function(){"use strict";var e=Object.prototype.hasOwnProperty;return function(t){var o,n,r,i;if("object"!=typeof t||null===t)throw new TypeError(function(){var e,t=arguments,o="https://stdlib.io/e/"+t[0]+"?";for(e=1;e<t.length;e++)o+="&arg[]="+encodeURIComponent(t[e]);return o}("1S147,Gz",t));for(n in o={},t)i=n,null!=(r=t)&&e.call(r,i)&&(""===n?o[n]=t[n]:o[n.charAt(0).toUpperCase()+n.slice(1)]=t[n]);return o}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).capitalizeKeys=t();
-//# sourceMappingURL=browser.js.map

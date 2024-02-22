@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+capitalizeKeys = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-capitalize-keys/tags). For example,
+
+```javascript
 capitalizeKeys = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@v0.2.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var capitalizeKeys = require( 'path/to/vendor/umd/utils-capitalize-keys/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +127,7 @@ var obj2 = capitalizeKeys( obj1 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-capitalize-keys@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
